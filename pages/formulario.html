@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="shortcut icon" href="https://plchldr.co/i/30x30?&bg=43A047&fc=1E1E1E&text=PRN" type="image/x-icon">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="https://plchldr.co/i/220x80?&bg=AFF4C6&fc=1E1E1E&text=logo" alt="el logo de la empresa">
+                </a>  
+            </div>
+            <div>
+                <input type="text" placeholder="Buscar">
+            </div>
+            <div class="login">
+                <a href="../pages/formulario.html">
+                    <img src="https://plchldr.co/i/50x50?&bg=B3B3B3&fc=1E1E1E&text=login" alt="imagen de perfil del usuario">
+                </a>
+            </div>
+        </div>    
+    </header>
+    <nav>
+        <ul class="navegador">
+            <li> <a href="../pages/productos.html">productos</a> </li>
+            <li> <a href="#">categorias</a> </li>
+            <li> <a href="#">ofertas</a> </li>
+            <li> <a href="#">ayuda</a> </li>
+            <li> <a href="#">contacto</a> </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="formulario">
+            <nav>
+                <a href="../index.html">home</a>
+            </nav>
+
+            <div class="datosDelFormulario">
+                <div class="titulo">
+                    <h1>
+                        Unite y aprovecha todos los beneficios
+                    </h1>
+                </div>
+            
+                <form action="">
+            
+                    <div class="datosDeUsuario">
+                        <label for="emailPersonal">
+                            Correo
+                        </label>
+                        <br>
+                        <input 
+                            type="email"
+                            id="emailPersonal"
+                            name="emailPersonal"
+                            placeholder="ejemplo@gmail.com"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            required
+                        >
+                        <br>
+    
+                        <label for="usuario">
+                            Usuario
+                        </label>
+                        <br>
+                        <input 
+                            type="text" 
+                            id="usuario" 
+                            name="usuario" 
+                            placeholder="Crea un usuario"
+                            maxlength="20"
+                            minlength="2"
+                            required
+                        >
+                        <br>
+                        <label for="clave">
+                            Contraseña
+                        </label>
+                        <br>
+                        <input 
+                            type="clave"
+                            minlength="8"
+                            maxlength="20"
+                            pattern="pattern="^?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                        >
+                        <br>
+                    </div>
+                    <br>
+                    <label for="terminosYcondiciones">
+                        Terminos y Condiciones
+                    </label>
+                    <br>
+                    <input type="checkbox" id="terminos" name="terminos" value="acepto"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    <input type="checkbox" id="condiciones" name="condiciones" value="acepto"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab harum distinctio, consectetur maiores non hic commodi labore.
+                    <br>
+                    <button type="submit">
+                        Enviar Datos
+                    </button>
+                </form>
+            </div>
+        </div>
+            
+
+    </main>
+
+    <footer>
+        <div>
+            <div id="seguinos">
+                <p>
+                    Seguinos
+                </p>
+            </div>
+            <ul class="redesSociales">
+                <a href="#">
+                    <img src="https://plchldr.co/i/50x50?&bg=43A047&fc=1E1E1E&text=@" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://plchldr.co/i/50x50?&bg=43A047&fc=1E1E1E&text=@" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://plchldr.co/i/50x50?&bg=43A047&fc=1E1E1E&text=@" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://plchldr.co/i/50x50?&bg=43A047&fc=1E1E1E&text=@" alt="">
+                </a>
+                <a href="#">
+                    <img src="https://plchldr.co/i/50x50?&bg=43A047&fc=1E1E1E&text=@" alt="">
+                </a>
+            </ul>
+        </div>
+        
+
+    </footer>
+</body>
+</html>
